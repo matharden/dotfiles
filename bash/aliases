@@ -1,0 +1,4 @@
+# Git
+alias g="git"
+alias gs="gits" # status
+alias gs="git s" # status
