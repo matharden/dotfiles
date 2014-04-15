@@ -3,6 +3,8 @@
 	email = matharden@gmail.com
 
 [alias]
+	la = "!git config -l | grep alias | cut -c 7-"
+	############ GENERAL ############
 	s = status --short --branch
 	lo = log --oneline --color=always
 	lol = log --oneline --decorate --color=always
