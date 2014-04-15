@@ -4,7 +4,31 @@
 
 [alias]
 	s = status --short --branch
+	lo = log --oneline --color=always
+	lol = log --oneline --decorate --color=always
+	prune = fetch --prune
 	undo = reset --soft HEAD~1
+	############ BRANCH ############
+	b = branch
+	br = branch -vv
+	bm = branch -m
+	ba = branch -a
+	bav = branch -a -vv
+	############ CHECKOUT
+	co = checkout
+	cob = checkout -b
+	############ COMMIT ############
+	c = commit
+	ca = commit --amend
+	cm = commit --message
+	############ PUSH ############
+	p = push
+	pt = push --tags
+	pu = push --set-upstream
+	pf = push --force
+	############ PULL ############
+	pl = pull
+	plr = pull --rebase
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
