@@ -32,6 +32,8 @@
 	############ PULL ############
 	pl = pull
 	plr = pull --rebase
+	############ REMOTE ############
+	rs = remote show
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
