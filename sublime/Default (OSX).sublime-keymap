@@ -1,0 +1,5 @@
+[
+{ "keys": ["ctrl+shift+."], "command": "erb" },
+{ "keys": ["alt+super+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+{ "keys": ["ctrl+alt+f"], "command": "use_it" }
+]

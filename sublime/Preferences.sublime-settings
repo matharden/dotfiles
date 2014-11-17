@@ -1,0 +1,32 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"file_exclude_patterns":
+	[
+		"*.orig"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"ignored_packages":
+	[
+		"Vintage",
+		"Markdown",
+		"Theme - Afterglow",
+		"Stylus",
+		"Theme - Aqua",
+		"ERB Insert and Toggle Commands",
+		"AdvancedNewFile"
+	],
+	"tab_size": 2,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": false
+}
