@@ -1,4 +1,9 @@
 {
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"Base16 Color Schemes",
@@ -14,6 +19,7 @@
 		"Jade",
 		"LESS",
 		"MarkdownEditing",
+		"Package Control",
 		"Ruby Slim",
 		"Sass",
 		"Seti_UI",
