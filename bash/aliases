@@ -1,7 +1,4 @@
-# Git
-alias g="git"
-alias gs="git s" # status
-
+# App shortcuts
 alias -g subl='sublime'
 alias -g vagrant='vagrant'
 alias -g w3m='w3m'
@@ -9,7 +6,10 @@ alias -g lynx='lynx'
 alias -g gits="git status -s"
 alias -g gitx="open -a GitX ."
 
+# Promodoro
 alias pomo='say "Starting pomodoro" && sleep 2500 && say "Thank you for this pomodoro"'
+
+# Prevent corrections
 alias ack='nocorrect ack'
 alias tests='nocorrect tests'
 alias test='nocorrect test'
