@@ -13,14 +13,15 @@
 		"CVS",
 		".sass-cache"
 	],
+	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown",
 		"Theme - Afterglow",
-		"Stylus",
-		"Theme - Aqua",
 		"ERB Insert and Toggle Commands",
+		"Theme - Aqua",
+		"Markdown",
+		"Stylus",
+		"Vintage",
 		"AdvancedNewFile"
 	],
 	"tab_size": 2,
