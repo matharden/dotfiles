@@ -43,6 +43,9 @@ RPROMPT='%{$fg[magenta]%}$(~/.rvm/bin/rvm-prompt)%{$reset_color%}'
 
 export PATH=${PATH}:/Users/matharden/.rvm/gems/ruby-2.0.0-p0/bin:/Users/matharden/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/matharden/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/matharden/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
+# Ensure Homebrew comes before system binaries
+export PATH=/usr/local/bin:${PATH}
+
 export PATH=/usr/local/share/npm/bin:${PATH}
 
 ### Added by the Heroku Toolbelt
