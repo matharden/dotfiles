@@ -13,16 +13,15 @@
 		"CVS",
 		".sass-cache"
 	],
-	"font_size": 12,
 	"ignored_packages":
 	[
-		"Theme - Afterglow",
+		"AdvancedNewFile",
 		"ERB Insert and Toggle Commands",
-		"Theme - Aqua",
 		"Markdown",
 		"Stylus",
-		"Vintage",
-		"AdvancedNewFile"
+		"Theme - Afterglow",
+		"Theme - Aqua",
+		"Vintage"
 	],
 	"tab_size": 2,
 	"theme": "Seti.sublime-theme",
