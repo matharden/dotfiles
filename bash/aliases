@@ -5,6 +5,7 @@ alias -g w3m='w3m'
 alias -g lynx='lynx'
 alias -g gits="git status -s"
 alias -g gitx="open -a GitX ."
+alias -g subl="open -a Sublime\ Text"
 
 # Promodoro
 alias pomo='say "Starting pomodoro" && sleep 2500 && say "Thank you for this pomodoro"'
