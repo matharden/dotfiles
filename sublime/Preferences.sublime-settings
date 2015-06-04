@@ -1,6 +1,8 @@
 {
 	"bold_folder_labels": true,
+	"caret_style": "phase",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
 		"*.orig"
@@ -13,6 +15,7 @@
 		"CVS",
 		".sass-cache"
 	],
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"AdvancedNewFile",
