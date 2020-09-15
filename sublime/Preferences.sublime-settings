@@ -1,11 +1,12 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
-		"*.orig"
+		"*.orig",
+		"*.pyc"
 	],
 	"folder_exclude_patterns":
 	[
@@ -15,19 +16,24 @@
 		"CVS",
 		".sass-cache"
 	],
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"ERB Insert and Toggle Commands",
 		"AdvancedNewFile",
-		"Theme - Afterglow",
+		"ERB Insert and Toggle Commands",
+		"Markdown",
 		"Stylus",
+		"Theme - Afterglow",
 		"Theme - Aqua",
-		"Vintage",
-		"Markdown"
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
 	],
 	"tab_size": 2,
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": false,
