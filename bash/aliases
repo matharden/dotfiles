@@ -16,6 +16,13 @@ alias ack='nocorrect ack'
 alias test='nocorrect test'
 alias tests='nocorrect tests'
 
+# Bash
+# Find directories within the current directory which contain a string in the name.
+# @arg1 String
+findir() {
+  find . -maxdepth 1 -type d -name "*$1*"
+}
+
 # Jokey aliases
 alias wow='git status'
 alias such='git'
