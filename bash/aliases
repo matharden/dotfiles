@@ -6,6 +6,7 @@ alias -g lynx='lynx'
 alias -g gitx="open -a GitX ."
 alias -g subl="open -a Sublime\ Text"
 alias -g atm="open -a Atom"
+alias -g txm='open -a Textmate'
 
 # Promodoro
 alias pomo='say "Starting pomodoro" && sleep 2500 && say "Thank you for this pomodoro"'
